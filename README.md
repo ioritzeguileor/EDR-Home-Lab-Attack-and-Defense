@@ -129,7 +129,7 @@ The VMs are connected via a NAT Network with a common IPv4 prefix to ensure seam
 ## Defense and Threat Detection
 
 - **Splunk Monitoring**:
-  - Detected suspicious activities logged by Sysmon on both Windows devices.
+  - Detected suspicious activities logged by Sysmon on both Windows devices
 ![image](https://github.com/user-attachments/assets/100a4d5c-3ac1-4a44-815f-6e65da974664)
 ![image](https://github.com/user-attachments/assets/1450940e-3681-45f3-9571-bfeb495a2f75)
   - Investigated indexed events for abnormal patterns and was able to identify source of attack through closer inspection of Event ID and Log Details.<br>
